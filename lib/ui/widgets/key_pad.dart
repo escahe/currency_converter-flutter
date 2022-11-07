@@ -115,9 +115,9 @@ class _KeyPadState extends State<KeyPad> {
             child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
-                  OneKey(number: 6, callback: _onPressed),
-                  OneKey(number: 7, callback: _onPressed),
-                  OneKey(number: 8, callback: _onPressed)
+                  OneKey(number: 4, callback: _onPressed),
+                  OneKey(number: 5, callback: _onPressed),
+                  OneKey(number: 6, callback: _onPressed)
                 ]),
           ),
           Expanded(
