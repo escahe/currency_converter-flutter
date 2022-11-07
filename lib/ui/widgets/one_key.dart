@@ -9,8 +9,6 @@ class OneKey extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO.
-    // te le mides a mejorar este key??
     return Expanded(
       child: Padding(
         padding: const EdgeInsets.fromLTRB(8, 8, 8, 8),
